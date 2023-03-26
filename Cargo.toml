@@ -1,7 +1,18 @@
+[workspace]
+
 [package]
-name = "rust_completions"
+name = "rust-completions"
+description="Minimal wrapper around OpenAI's Chat Completions"
+authors = ["Ticiano Morvan <ticiano.morvan@gmail.com>"]
 version = "0.1.0"
 edition = "2021"
+license-file = "LICENSE.md"
+readme = "README.md"
+homepage = "https://github.com/ticianomorvan/rust-completions"
+repository = "https://github.com/ticianomorvan/rust-completions"
+keywords = ["open-ai", "chat-gpt", "completions"]
+categories = ["command-line-utilities"]
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

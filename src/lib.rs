@@ -106,7 +106,7 @@ pub async fn run(config: Config) -> Result<(), Box<dyn Error>> {
         temperature: 0.0,
     };
 
-    println!("Asking: \"{}\" with model: 'gpt-3.5-turbo", &env_args[1]);
+    println!("Asking: \"{}\" with model: \"gpt-3.5-turbo\"", &env_args[1]);
 
     let completion = new_chat_completion(&config, body).await?;
 
